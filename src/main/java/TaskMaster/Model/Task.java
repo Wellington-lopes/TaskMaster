@@ -25,6 +25,10 @@ public class Task {
         this.createAt = createAt;
         this.updateAt = updateAt;
     }
+    
+    public Task(){
+        this.createAt = new.Date();
+    }
 
     public int getId() {
         return id;
